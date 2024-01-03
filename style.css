@@ -1,0 +1,140 @@
+
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+
+body{
+    background: url(images/bg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+.header {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .img1 {
+    height: 25px;
+    margin-left: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav .nava {
+    margin-left: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropbtn {
+    background-color: black;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.dropdown .dropbtn::before {
+    content: "|";
+    margin-right: 40px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 80px;
+    margin-left: 60px;
+    z-index: 1;
+}
+
+a:hover, .dropdown:hover .dropbtn {
+    color: rgb(167, 31, 167);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 22px;
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.dropdown-content a:hover {
+    color: rgb(167, 31, 167);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav .btn2 {
+    background-color: rgb(167, 31, 167);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px 18px;
+    border-radius: 4px;
+}
+
+nav .btn2 {
+    margin-left: 470px;
+}
+
+
+.para1 {
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+.para1 .p1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.para1 .p2 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.para2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.para2 .btn2 {
+    background-color: rgb(167, 31, 167);
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+}
